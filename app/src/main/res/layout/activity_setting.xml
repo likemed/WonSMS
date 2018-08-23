@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/activity_setting"
+    android:background="#ffeff6f2"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView android:id="@+id/cardlist"
+        android:textSize="16dp"
+        android:textColor="#ff000000"
+        android:background="#ffdbeae0"
+        android:padding="5dip"
+        android:layout_margin="10dip"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="카드 리스트" />
+
+    <ScrollView android:id="@+id/scrollView"
+        android:layout_width="match_parent" android:layout_height="match_parent">
+
+        <LinearLayout android:orientation="vertical"
+            android:layout_width="match_parent" android:layout_height="match_parent">
+
+            <LinearLayout android:orientation="horizontal"
+                android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <EditText android:id="@+id/no_card1"
+                    android:gravity="center"
+                    android:layout_width="40dip" android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dip"
+                    android:hint="번호"
+                    android:inputType="number" />
+
+                <EditText android:id="@+id/tel_card1"
+                    android:layout_width="113dip" android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dip"
+                    android:hint="전화번호"
+                    android:inputType="number" />
+
+                <EditText android:id="@+id/txt_card1"
+                    android:layout_width="0dip" android:layout_height="wrap_content"
+                    android:layout_marginLeft="7.0dip" android:layout_marginRight="7.0dip"
+                    android:hint="구문"
+                    android:layout_weight="1.0"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout android:orientation="horizontal"
+                android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <EditText android:id="@+id/no_card2"
+                    android:gravity="center"
+                    android:layout_width="40dip" android:layout_height="wrap_content"
+                    android:layout_marginLeft="7.0dip"
+                    android:hint="번호"
+                    android:inputType="number" />
+
+                <EditText android:id="@+id/tel_card2"
+                    android:layout_width="113.0dip" android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dip"
+                    android:hint="전화번호"
+                    android:inputType="number" />
+
+                <EditText android:id="@+id/txt_card2"
+                    android:layout_width="0dip" android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dip" android:layout_marginRight="7dip"
+                    android:hint="구문"
+                    android:layout_weight="1.0"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout android:orientation="horizontal"
+                android:layout_width="match_parent" android:layout_height="wrap_content">
+                <EditText android:id="@+id/no_card3"
+                    android:gravity="center"
+                    android:layout_width="40dip" android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dip"
+                    android:hint="번호"
+                    android:inputType="number" />
+
+                <EditText android:id="@+id/tel_card3"
+                    android:layout_width="113dip" android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dip"
+                    android:hint="전화번호"
+                    android:inputType="number" />
+
+                <EditText android:id="@+id/txt_card3"
+                    android:layout_width="0dip" android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dip" android:layout_marginRight="7dip"
+                    android:hint="구문"
+                    android:layout_weight="1.0"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout android:orientation="horizontal"
+                android:layout_width="match_parent" android:layout_height="wrap_content">
+                <EditText android:id="@+id/no_card4"
+                    android:gravity="center"
+                    android:layout_width="40dip" android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dip"
+                    android:hint="번호"
+                    android:inputType="number" />
+
+                <EditText android:id="@+id/tel_card4"
+                    android:layout_width="113dip" android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dip"
+                    android:hint="전화번호"
+                    android:inputType="number" />
+
+                <EditText android:id="@+id/txt_card4"
+                    android:layout_width="0dip" android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dip" android:layout_marginRight="7dip"
+                    android:hint="구문"
+                    android:layout_weight="1.0"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout android:orientation="horizontal"
+                android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <EditText android:id="@+id/no_card5"
+                    android:gravity="center"
+                    android:layout_width="40dip" android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dip"
+                    android:hint="번호"
+                    android:inputType="number" />
+
+                <EditText android:id="@+id/tel_card5"
+                    android:layout_width="113dip" android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dip"
+                    android:hint="전화번호"
+                    android:inputType="number" />
+
+                <EditText android:id="@+id/txt_card5"
+                    android:layout_width="0dip" android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dip" android:layout_marginRight="7dip"
+                    android:hint="구문"
+                    android:layout_weight="1.0"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <Button android:id="@+id/button"
+                android:layout_gravity="center"
+                android:layout_width="210dip" android:layout_height="wrap_content"
+                android:text="저장하기" />
+
+            <TextView android:id="@+id/textView2"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:text="입력 번호와 카드에 할당된 번호를 동일하게 해주시고\n전화번호와 구문를 바탕으로 사용한 카드를 알 수 있도록\n설정바랍니다." />
+
+            <Button android:id="@+id/resetbtn"
+                android:layout_gravity="center"
+                android:layout_width="210dip" android:layout_height="wrap_content"
+                android:text="설정 초기화" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
