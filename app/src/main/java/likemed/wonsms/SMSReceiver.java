@@ -102,11 +102,11 @@ public class SMSReceiver extends BroadcastReceiver {
                         builder.setSmallIcon(android.R.drawable.star_on);
                         builder.setTicker("WonSMS [" + response + "]");
                         builder.setContentTitle("WonSMS");
-                        builder.setContentText(contents + " [" + response + "]");
                         builder.setWhen(System.currentTimeMillis());
                         builder.setDefaults(Notification.DEFAULT_SOUND | Notification.DEFAULT_VIBRATE);
                         builder.setContentIntent(pendingIntent);
                         builder.setAutoCancel(true);
+                        builder.setStyle(new NotificationCompat.BigTextStyle() .bigText("[" + response + "] " + contents));
                         /*builder.setNumber(count);*/
                         notificationManager.notify(0, builder.build());
 
